@@ -1,0 +1,24 @@
+name: dsdepth
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.1.1=ha002fc5_10
+  - numpy=1.19.2=py36h54aff64_0
+  - numpy-base=1.19.2=py36hfa32c7d_0
+  - pillow=8.3.2=py36h676a545_0
+  - python=3.6.6=h6e4f718_2
+  - pytorch=1.10.2=py3.6_cuda11.1_cudnn8.0.5_0
+  - torchvision=0.2.1=py36_0
+  - pip:
+    - flow-vis==0.1
+    - matplotlib==3.3.4
+    - opencv-python==4.6.0.66
+    - pandas==1.1.5
+    - scikit-image==0.17.2
+    - scipy==1.5.4
+    - tensorboardx==1.4
+    - torchsummary==1.5.1
+    - tqdm==4.64.1
+    - transformers==4.18.0
