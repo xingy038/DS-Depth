@@ -108,7 +108,12 @@ If you have any concern with this paper or implementation, welcome to open an is
 If you find this code useful for your research, please consider citing the following paper:
 
 ```latex
-
+@ARTICLE{10220114,
+  author={Miao, Xingyu and Bai, Yang and Duan, Haoran and Huang, Yawen and Wan, Fan and Xu, Xinxing and Long, Yang and Zheng, Yefeng},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={DS-Depth: Dynamic and Static Depth Estimation via a Fusion Cost Volume}, 
+  year={2023},
+  doi={10.1109/TCSVT.2023.3305776}}
 ```
 
 ## Acknowledgments
