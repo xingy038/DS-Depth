@@ -28,7 +28,7 @@ from .utils import readlines
 from .layers import SSIM, BackprojectDepth, Project3D, transformation_from_parameters, \
     disp_to_depth, get_smooth_loss, flow_warp, image_similarity, L2_norm, flow_smooth_loss
 
-from manydepth import datasets, networks
+from dsdepth import datasets, networks
 import matplotlib.pyplot as plt
 import rigid_warp as tool
 
